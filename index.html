@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Earbuds Product Page</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+    <h2 class="logo">EarBudStore</h2>
+    <div class="search">
+        <input type="text" placeholder="🔎 Search for products, brands...">
+    </div>
+    
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Brands</a>
+        <a href="#">Services</a>
+        <a href="#">🛒 Cart <span id="cartCount" class="cart-count">0</span></a>
+        <a href="#">About</a>
+    </div>
+
+</nav>
+
+
+<!-- ================= PRODUCT ================= -->
+<div class="container">
+
+    <!-- LEFT IMAGE -->
+    <div class="product-img">
+        <img id="productImage"
+        src="https://www.leafstudios.in/cdn/shop/files/1copy_3185c313-fe00-4008-b149-a8cbd501e632_1000x.png?v=1736754471">
+    </div>
+
+    <!-- RIGHT DETAILS -->
+    <div class="details">
+
+        <h1>Leaf Buds X121</h1>
+
+        <p>
+            True wireless earbuds with deep bass, noise isolation,
+            touch controls and long battery life.
+        </p>
+
+        <!-- PRICE -->
+        <div class="price">
+            <span class="old-price">₹1999</span>
+            <span class="new-price">₹699</span>
+            <span id="discountPercent" class="discount"></span>
+        </div>
+
+        <!-- COLOR -->
+        <h3>Select Color:</h3>
+        <div class="colors">
+            <button onclick="changeColor('black')" class="black">Black</button>
+            <button onclick="changeColor('white')" class="white">White</button>
+        </div>
+
+        <!-- CART -->
+        <button onclick="addToCart()" class="add-cart">
+            Add to Cart
+        </button>
+
+    </div>
+</div>
+
+
+<!-- Link JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
