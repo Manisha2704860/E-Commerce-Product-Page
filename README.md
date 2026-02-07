@@ -18,4 +18,6 @@
 - This project simulates a simple online shopping product page similar to e-commerce websites.
 
 # Output :
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c235863f-c768-41ac-abe3-e297ca7d0551" />
+
+<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/8501a10a-a72b-4a6e-96a7-193ed8bd38c3" />
+
